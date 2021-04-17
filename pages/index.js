@@ -2,15 +2,14 @@ import Head from 'next/head';
 import matter from 'gray-matter';
 import fs from 'fs';
 import path from 'path';
+import Hero from '../components/Hero';
 
 
 export default function Home({ posts }) {
   console.log(posts)
   return (
       <div>
-        <h1 className="min-h-screen bg-blue-500">
-            Hello there
-        </h1>
+        <Hero />
       </div>
   )
 }
