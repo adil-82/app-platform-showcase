@@ -5,7 +5,6 @@ import path from 'path';
 import Hero from '../components/Hero';
 import AppPreview from '../components/AppPreview';
 
-
 export default function Home({ posts }) {
   console.log(posts)
   return (
